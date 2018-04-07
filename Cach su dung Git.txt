@@ -1,23 +1,30 @@
-Bước 1: tạo resposistory trên github.com
-Bước 2: Nhân bản respo trên trang github.com xuống thư mục trong máy của bạn
+Tạo kho chứa trên github.com
 
-git clone https://github.com/doimoi9191/git.git
+	lên trang github.com để tạo tài khoản và repository
 
-Bước 3: Đẩy file mới lên respo
-kiểm tra trạng thái của các file
-git status
+Tạo một bản sao của kho chứa trên trang github.com xuống máy của bạn, sử dụng lệnh:
 
-Dùng lệnh git add "tên file" hoặc git add * để thêm các file mới tạo vào thư mục nằm trên máy tính của bạn.
+	git clone https://github.com/doimoi9191/git.git
 
-git add XuanND.txt
-git add *
+Kiểm tra trạng thái của các file nằm trong kho chứa:
 
-Lúc này các file vừa được thêm ở trên vẫn chưa được đẩy lên trang github.com
+	git status
 
-Dùng lệnh git commit -m"nội dung ghi chú" để thêm ghi chú.
+Cập nhật lại sự thay đổi (thêm, sửa, xóa) của các file trong kho chứa:
 
-$ git commit -m"them moi file XuanND.txt"
+	git add ten_file.duoi_file
+or
+	git add *
+
+Dùng lệnh git commit -m"nội dung ghi chú" để lưu lại thay đổi trên local
+
+	git commit -m"them moi file XuanND.txt"
+
+	git commit -a -m"abccccc"
 
 Dùng lệnh git push để đẩy file lên cloud của github.com
 
 $ git push
+
+Phục hồi repository về một thời điểm nào đó
+
