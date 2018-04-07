@@ -28,3 +28,15 @@ $ git push
 
 Phục hồi repository về một thời điểm nào đó
 
+b1: dùng lệnh git log để lấy id của những lần update
+
+	git log
+
+b2: copy đoạn log id của thời điểm mà bạn muốn quay trở lại
+b3: nhấn Ctrl + C để dừng quá trình lấy log
+b4: sử dụng lệnh git revert để quay trở lại thời điểm mà ta muốn backup
+
+	git revert log_id_thoi_diem
+
+Nhấn nút Esc
+Gõ :q rồi nhấn Enter
