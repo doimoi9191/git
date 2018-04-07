@@ -38,5 +38,15 @@ b4: sử dụng lệnh git revert để quay trở lại thời điểm mà ta m
 
 	git revert log_id_thoi_diem
 
-Nhấn nút Esc
-Gõ :q rồi nhấn Enter
+b5: Nhấn nút Esc	Gõ :q 	rồi nhấn Enter
+b6: dùng lệnh git push để cập nhật lại sự thay đổi sau khi backup
+
+
+ĐỒNG BỘ TỪ GITHUB XUỐNG LOCAL
+
+	git pull
+
+
+tham khảo
+
+https://www.youtube.com/watch?v=DExk4RUn8Y4
